@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_unon3_inst_eff_institutional_effectiveness" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Official</label>
+            <language>en</language>
+            <name>x_unon3_inst_eff_institutional_effectiveness</name>
+            <sequence>0</sequence>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-09-27 22:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0d9f867d37f0ab00292edaa543990ec2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-09-27 22:19:56</sys_updated_on>
+            <value>Official</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Live</label>
+            <language>en</language>
+            <name>x_unon3_inst_eff_institutional_effectiveness</name>
+            <sequence>1</sequence>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-09-27 22:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>819f867d37f0ab00292edaa543990ec5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-09-27 22:19:56</sys_updated_on>
+            <value>Live</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Student Data</label>
+            <language>en</language>
+            <name>x_unon3_inst_eff_institutional_effectiveness</name>
+            <sequence>2</sequence>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-09-27 22:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>819f867d37f0ab00292edaa543990ec7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-09-27 22:19:56</sys_updated_on>
+            <value>Student Data</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Information Systems</label>
+            <language>en</language>
+            <name>x_unon3_inst_eff_institutional_effectiveness</name>
+            <sequence>3</sequence>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-09-27 22:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>819f867d37f0ab00292edaa543990ec9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-09-27 22:19:56</sys_updated_on>
+            <value>Information Systems</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_unon3_inst_eff_institutional_effectiveness</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-09-27 22:19:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>859f867d37f0ab00292edaa543990ec3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="Institutional Effectiveness" source="x_unon3_inst_eff">2e49b0e937f06b00292edaa543990e57</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Institutional Effectiveness">2e49b0e937f06b00292edaa543990e57</sys_scope>
+            <sys_update_name>sys_choice_x_unon3_inst_eff_institutional_effectiveness_category</sys_update_name>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-09-27 22:19:56</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

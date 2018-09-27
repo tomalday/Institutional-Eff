@@ -1,3 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Institutional Effectiveness" max_length="40" name="x_unon3_inst_eff_institutional_effectiveness" type="collection"/>
+    <element audit="true" extends="task" label="Institutional Effectiveness" max_length="40" name="x_unon3_inst_eff_institutional_effectiveness" type="collection">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assigned" max_length="1024" name="assigned" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Official" sequence="0" value="Official"/>
+                <element inactive_on_update="false" label="Live" sequence="1" value="Live"/>
+                <element inactive_on_update="false" label="Student Data" sequence="2" value="Student Data"/>
+                <element inactive_on_update="false" label="Information Systems" sequence="3" value="Information Systems"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="category" dependent_on_field="category" label="Subcategory" max_length="40" name="subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Official" inactive_on_update="false" label="Dashboard" sequence="0" value="Dashboard"/>
+                <element dependent_value="Live" inactive_on_update="false" label="Dashboard" sequence="0" value="Dashboard"/>
+                <element dependent_value="Student Data" inactive_on_update="false" label="Enrollment" sequence="0" value="Enrollment"/>
+                <element dependent_value="Information Systems" inactive_on_update="false" label="HR" sequence="0" value="HR"/>
+                <element dependent_value="Information Systems" inactive_on_update="false" label="Facilities" sequence="1" value="Facilities"/>
+                <element dependent_value="Student Data" inactive_on_update="false" label="Retention" sequence="1" value="Retention"/>
+                <element dependent_value="Official" inactive_on_update="false" label="Survey Data" sequence="1" value="Survey Data"/>
+                <element dependent_value="Live" inactive_on_update="false" label="Survey Data" sequence="1" value="Survey Data"/>
+                <element dependent_value="Student Data" inactive_on_update="false" label="Courses" sequence="2" value="Courses"/>
+                <element dependent_value="Information Systems" inactive_on_update="false" label="D2L" sequence="2" value="D2L"/>
+                <element dependent_value="Official" inactive_on_update="false" label="Report" sequence="2" value="Report"/>
+                <element dependent_value="Live" inactive_on_update="false" label="Report" sequence="2" value="Report"/>
+                <element dependent_value="Student Data" inactive_on_update="false" label="Degrees" sequence="3" value="Degrees"/>
+                <element dependent_value="Information Systems" inactive_on_update="false" label="DegreeWorks" sequence="3" value="DegreeWorks"/>
+                <element dependent_value="Information Systems" inactive_on_update="false" label="Civitias" sequence="4" value="Civitias"/>
+                <element dependent_value="Student Data" inactive_on_update="false" label="Other" sequence="4" value="Other"/>
+                <element dependent_value="Information Systems" inactive_on_update="false" label="Banner" sequence="5" value="Banner"/>
+                <element dependent_value="Information Systems" inactive_on_update="false" label="OneUSG" sequence="6" value="OneUSG"/>
+                <element dependent_value="Information Systems" inactive_on_update="false" label="Other" sequence="7" value="Other"/>
+            </choice>
+        </element>
+    </element>
 </database>

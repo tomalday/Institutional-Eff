@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_unon3_inst_eff_institutional_effectiveness">state=2^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Work in Progress</label>
+        <name>Work In Progress</name>
+        <order>2</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2018-09-27 22:27:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1c619abd37f0ab00292edaa543990ef2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work In Progress</sys_name>
+        <sys_package display_value="Institutional Effectiveness" source="x_unon3_inst_eff">2e49b0e937f06b00292edaa543990e57</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Institutional Effectiveness">2e49b0e937f06b00292edaa543990e57</sys_scope>
+        <sys_update_name>sys_process_flow_1c619abd37f0ab00292edaa543990ef2</sys_update_name>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2018-09-27 22:27:47</sys_updated_on>
+        <table>x_unon3_inst_eff_institutional_effectiveness</table>
+    </sys_process_flow>
+</record_update>
