@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="supervisor" label="Supervisor" language="en" table="x_unon3_inst_eff_institutional_effectiveness">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>supervisor</element>
+            <help/>
+            <hint/>
+            <label>Supervisor</label>
+            <language>en</language>
+            <name>x_unon3_inst_eff_institutional_effectiveness</name>
+            <plural>Supervisors</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-10-11 11:59:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>43c7001637096f80292edaa543990e18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Supervisor</sys_name>
+            <sys_package display_value="Institutional Effectiveness" source="x_unon3_inst_eff">2e49b0e937f06b00292edaa543990e57</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Institutional Effectiveness">2e49b0e937f06b00292edaa543990e57</sys_scope>
+            <sys_update_name>sys_documentation_x_unon3_inst_eff_institutional_effectiveness_supervisor_en</sys_update_name>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-10-11 11:59:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

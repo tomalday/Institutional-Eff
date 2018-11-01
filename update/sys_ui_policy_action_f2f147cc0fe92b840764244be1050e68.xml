@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>approval_comments</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2018-10-29 22:18:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f2f147cc0fe92b840764244be1050e68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approval_comments</sys_name>
+        <sys_package display_value="Institutional Effectiveness" source="x_unon3_inst_eff">2e49b0e937f06b00292edaa543990e57</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Institutional Effectiveness">2e49b0e937f06b00292edaa543990e57</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f2f147cc0fe92b840764244be1050e68</sys_update_name>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2018-10-29 22:18:16</sys_updated_on>
+        <table>x_unon3_inst_eff_institutional_effectiveness</table>
+        <ui_policy display_value="Show Approval Comments field">eec1878c0fe92b840764244be1050e13</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

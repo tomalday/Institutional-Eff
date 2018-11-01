@@ -16,15 +16,28 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-10-10 22:49:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4103950e0fc56b800764244be1050edf</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_unon3_inst_eff_institutional_effectiveness" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">cdb2c5a537346b00292edaa543990e58</sys_ui_form>
+            <sys_ui_section caption="User Selections" display_value="User Selections" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">c903950e0fc56b800764244be1050edc</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-10-24 14:54:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>taalday</sys_created_by>
             <sys_created_on>2018-09-26 22:05:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>81b2c5a537346b00292edaa543990e5b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_unon3_inst_eff_institutional_effectiveness" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">cdb2c5a537346b00292edaa543990e58</sys_ui_form>
             <sys_ui_section caption="Notes and Log" display_value="Notes and Log" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">05b2c5a537346b00292edaa543990e5a</sys_ui_section>
             <sys_updated_by>taalday</sys_updated_by>
-            <sys_updated_on>2018-09-26 22:05:34</sys_updated_on>
+            <sys_updated_on>2018-10-24 14:54:56</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_unon3_inst_eff_institutional_effectiveness</name>

@@ -6,7 +6,7 @@
         <device_type>browser</device_type>
         <hint/>
         <name>Institutional Effectiveness</name>
-        <order/>
+        <order>15</order>
         <roles>x_unon3_inst_eff.user</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>taalday</sys_created_by>
@@ -14,7 +14,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>ee49b0e937f06b00292edaa543990e70</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Institutional Effectiveness</sys_name>
         <sys_overrides/>
         <sys_package display_value="Institutional Effectiveness" source="x_unon3_inst_eff">2e49b0e937f06b00292edaa543990e57</sys_package>
@@ -23,7 +23,7 @@
         <sys_scope display_value="Institutional Effectiveness">2e49b0e937f06b00292edaa543990e57</sys_scope>
         <sys_update_name>sys_app_application_ee49b0e937f06b00292edaa543990e70</sys_update_name>
         <sys_updated_by>taalday</sys_updated_by>
-        <sys_updated_on>2018-09-26 21:24:31</sys_updated_on>
+        <sys_updated_on>2018-10-24 12:57:57</sys_updated_on>
         <title>Institutional Effectiveness</title>
         <view_name/>
     </sys_app_application>

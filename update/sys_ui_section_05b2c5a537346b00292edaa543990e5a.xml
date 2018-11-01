@@ -1,44 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Notes and Log" section_id="05b2c5a537346b00292edaa543990e5a" sys_domain="global" table="x_unon3_inst_eff_institutional_effectiveness" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-10-24 14:59:27</sys_created_on>
+            <sys_id>8cbd23d237d96b44292edaa543990e66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-10-24 14:59:27</sys_updated_on>
+            <text>Works Notes are internal only, Customer Comments are sent to the Requester </text>
+            <type display_value="UNG Box">91e5052fdbc0d780b45dfff31d9619b7</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>comments</element>
+            <element>8cbd23d237d96b44292edaa543990e66</element>
             <position>0</position>
             <sys_created_by>taalday</sys_created_by>
-            <sys_created_on>2018-09-26 22:06:42</sys_created_on>
-            <sys_id>65f245a537346b00292edaa543990e7d</sys_id>
+            <sys_created_on>2018-10-24 14:59:27</sys_created_on>
+            <sys_id>08bd23d237d96b44292edaa543990e67</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes and Log" display_value="Notes and Log" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">05b2c5a537346b00292edaa543990e5a</sys_ui_section>
             <sys_updated_by>taalday</sys_updated_by>
-            <sys_updated_on>2018-09-26 22:06:42</sys_updated_on>
+            <sys_updated_on>2018-10-24 14:59:27</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>1</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-10-24 14:59:27</sys_created_on>
+            <sys_id>8cbd23d237d96b44292edaa543990e67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes and Log" display_value="Notes and Log" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">05b2c5a537346b00292edaa543990e5a</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-10-24 14:59:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>taalday</sys_created_by>
-            <sys_created_on>2018-09-26 22:06:42</sys_created_on>
-            <sys_id>e5f245a537346b00292edaa543990e7d</sys_id>
+            <sys_created_on>2018-10-24 14:59:27</sys_created_on>
+            <sys_id>00bd23d237d96b44292edaa543990e68</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes and Log" display_value="Notes and Log" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">05b2c5a537346b00292edaa543990e5a</sys_ui_section>
             <sys_updated_by>taalday</sys_updated_by>
-            <sys_updated_on>2018-09-26 22:06:42</sys_updated_on>
+            <sys_updated_on>2018-10-24 14:59:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>taalday</sys_created_by>
-            <sys_created_on>2018-09-26 22:06:42</sys_created_on>
-            <sys_id>69f245a537346b00292edaa543990e7d</sys_id>
+            <sys_created_on>2018-10-24 14:59:27</sys_created_on>
+            <sys_id>80bd23d237d96b44292edaa543990e68</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">b832d3560a0001c700d781efe21e22f5</sys_ui_formatter>
             <sys_ui_section caption="Notes and Log" display_value="Notes and Log" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">05b2c5a537346b00292edaa543990e5a</sys_ui_section>
             <sys_updated_by>taalday</sys_updated_by>
-            <sys_updated_on>2018-09-26 22:06:42</sys_updated_on>
+            <sys_updated_on>2018-10-24 14:59:27</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>

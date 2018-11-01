@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Administrative and Business">88f5465cdb90cb00f21ef9a61d961921</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>A member of our office will respond to your request via email or telephone within two (2) business days of submission. If you do not receive an email from our office after two (2) business days, please contact Meagan Garris, Institutional Effectiveness Specialist, at&nbsp;<a href="mailto:meagan.garris@ung.edu">meagan.garris@ung.edu</a>. Please allow for a minimum of two weeks of completion time for each request. In case of high request volume, more time may be required to complete your request.</p>]]></description>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_mobile_picture</mobile_picture_type>
+        <model/>
+        <name>Institutional Effectiveness Data Request</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>true</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=e014d14e0fc56b800764244be1050ecc&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <roles/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script/>
+        <short_description>Request UNG data </short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2018-10-10 22:55:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e014d14e0fc56b800764244be1050ecc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Institutional Effectiveness Data Request</sys_name>
+        <sys_package display_value="Institutional Effectiveness" source="x_unon3_inst_eff">2e49b0e937f06b00292edaa543990e57</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Institutional Effectiveness">2e49b0e937f06b00292edaa543990e57</sys_scope>
+        <sys_update_name>sc_cat_item_producer_e014d14e0fc56b800764244be1050ecc</sys_update_name>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2018-10-10 23:02:31</sys_updated_on>
+        <table_name>x_unon3_inst_eff_institutional_effectiveness</table_name>
+        <template/>
+        <type>item</type>
+        <u_basic_workflow>false</u_basic_workflow>
+        <u_catalog2>false</u_catalog2>
+        <u_icon/>
+        <u_missing>false</u_missing>
+        <u_refresh>false</u_refresh>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=e014d14e0fc56b800764244be1050ecc"/>
+    <fx_price action="delete_multiple" query="id=e014d14e0fc56b800764244be1050ecc"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>e014d14e0fc56b800764244be1050ecc</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2018-10-10 22:55:15</sys_created_on>
+        <sys_id>e154554e0fc56b800764244be1050ec0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2018-10-10 22:55:15</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>e014d14e0fc56b800764244be1050ecc</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2018-10-10 22:55:15</sys_created_on>
+        <sys_id>a154554e0fc56b800764244be1050ec2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2018-10-10 22:55:15</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

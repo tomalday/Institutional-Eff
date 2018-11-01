@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="User Selections" section_id="c903950e0fc56b800764244be1050edc" sys_domain="global" table="x_unon3_inst_eff_institutional_effectiveness" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-10-24 14:54:56</sys_created_on>
+            <sys_id>c2ac279a37996b44292edaa543990ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="User Selections" display_value="User Selections" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">c903950e0fc56b800764244be1050edc</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-10-24 14:54:56</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requester</element>
+            <position>1</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-10-24 14:54:56</sys_created_on>
+            <sys_id>8aac279a37996b44292edaa543990ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="User Selections" display_value="User Selections" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">c903950e0fc56b800764244be1050edc</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-10-24 14:54:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requester.email</element>
+            <position>2</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-10-24 14:54:56</sys_created_on>
+            <sys_id>0eac279a37996b44292edaa543990ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="User Selections" display_value="User Selections" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">c903950e0fc56b800764244be1050edc</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-10-24 14:54:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requester.phone</element>
+            <position>3</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-10-24 14:54:56</sys_created_on>
+            <sys_id>8eac279a37996b44292edaa543990ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="User Selections" display_value="User Selections" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">c903950e0fc56b800764244be1050edc</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-10-24 14:54:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requester.department</element>
+            <position>4</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-10-24 14:54:56</sys_created_on>
+            <sys_id>02ac279a37996b44292edaa543990ed4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="User Selections" display_value="User Selections" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">c903950e0fc56b800764244be1050edc</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-10-24 14:54:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-10-24 14:54:56</sys_created_on>
+            <sys_id>82ac279a37996b44292edaa543990ed4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="User Selections" display_value="User Selections" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">c903950e0fc56b800764244be1050edc</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-10-24 14:54:56</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supervisor</element>
+            <position>6</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-10-24 14:54:56</sys_created_on>
+            <sys_id>06ac279a37996b44292edaa543990ed4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="User Selections" display_value="User Selections" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">c903950e0fc56b800764244be1050edc</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-10-24 14:54:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-10-24 14:54:56</sys_created_on>
+            <sys_id>86ac279a37996b44292edaa543990ed4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="User Selections" display_value="User Selections" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">c903950e0fc56b800764244be1050edc</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-10-24 14:54:56</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>8</position>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-10-24 14:54:56</sys_created_on>
+            <sys_id>0aac279a37996b44292edaa543990ed4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="User Selections" display_value="User Selections" name="x_unon3_inst_eff_institutional_effectiveness" sys_domain="global" view="Default view">c903950e0fc56b800764244be1050edc</sys_ui_section>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-10-24 14:54:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>User Selections</caption>
+            <header>false</header>
+            <name>x_unon3_inst_eff_institutional_effectiveness</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>taalday</sys_created_by>
+            <sys_created_on>2018-10-10 22:49:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>c903950e0fc56b800764244be1050edc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>User Selections</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Institutional Effectiveness" source="x_unon3_inst_eff">2e49b0e937f06b00292edaa543990e57</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Institutional Effectiveness">2e49b0e937f06b00292edaa543990e57</sys_scope>
+            <sys_update_name>sys_ui_section_c903950e0fc56b800764244be1050edc</sys_update_name>
+            <sys_updated_by>taalday</sys_updated_by>
+            <sys_updated_on>2018-10-10 22:49:29</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

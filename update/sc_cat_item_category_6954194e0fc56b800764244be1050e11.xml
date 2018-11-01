@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Institutional Effectiveness Data Request">e014d14e0fc56b800764244be1050ecc</sc_cat_item>
+        <sc_category display_value="Administrative and Business">88f5465cdb90cb00f21ef9a61d961921</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2018-10-10 22:55:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6954194e0fc56b800764244be1050e11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Administrative and Business.Institutional Effectiveness Data Request</sys_name>
+        <sys_package display_value="Institutional Effectiveness" source="x_unon3_inst_eff">2e49b0e937f06b00292edaa543990e57</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Institutional Effectiveness">2e49b0e937f06b00292edaa543990e57</sys_scope>
+        <sys_update_name>sc_cat_item_category_6954194e0fc56b800764244be1050e11</sys_update_name>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2018-10-10 22:55:15</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

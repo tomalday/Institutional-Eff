@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Institutional Effectiveness" max_length="40" name="x_unon3_inst_eff_institutional_effectiveness" type="collection">
+    <element attributes="hasLabels=true" audit="true" extends="task" label="Institutional Effectiveness" max_length="40" name="x_unon3_inst_eff_institutional_effectiveness" sizeclass="6" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Approval Comments" max_length="40" name="approval_comments" type="journal_input"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assigned" max_length="1024" name="assigned" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
             <choice>
@@ -9,6 +10,9 @@
                 <element inactive_on_update="false" label="Information Systems" sequence="3" value="Information Systems"/>
             </choice>
         </element>
+        <element label="Date Needed" max_length="40" name="date_needed" type="glide_date"/>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element attributes=" ref_auto_completer=AJAXTableCompleter,ref_ac_columns=email,ref_ac_columns_search=true,ref_ac_order_by=name" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requester" max_length="32" name="requester" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dynamic_default="true"/>
         <element choice="1" dependent="category" dependent_on_field="category" label="Subcategory" max_length="40" name="subcategory" type="choice" use_dependent_field="true">
             <choice>
                 <element dependent_value="Official" inactive_on_update="false" label="Dashboard" sequence="0" value="Dashboard"/>
@@ -32,5 +36,6 @@
                 <element dependent_value="Information Systems" inactive_on_update="false" label="Other" sequence="7" value="Other"/>
             </choice>
         </element>
+        <element attributes=" ref_auto_completer=AJAXTableCompleter,ref_ac_columns=email,ref_ac_columns_search=true,ref_ac_order_by=name" label="Supervisor" max_length="32" name="supervisor" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
     </element>
 </database>
