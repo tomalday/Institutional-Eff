@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_unon3_inst_eff.IE.2day.Remind</event_name>
+        <fired_by>Workflow</fired_by>
+        <queue/>
+        <suffix>IE.2day.Remind</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>taalday</sys_created_by>
+        <sys_created_on>2018-11-08 15:35:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3b85c95f376d2700292edaa543990e8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_unon3_inst_eff.IE.2day.Remind</sys_name>
+        <sys_package display_value="Institutional Effectiveness" source="x_unon3_inst_eff">2e49b0e937f06b00292edaa543990e57</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Institutional Effectiveness">2e49b0e937f06b00292edaa543990e57</sys_scope>
+        <sys_update_name>sysevent_register_3b85c95f376d2700292edaa543990e8f</sys_update_name>
+        <sys_updated_by>taalday</sys_updated_by>
+        <sys_updated_on>2018-11-08 15:35:41</sys_updated_on>
+        <table>x_unon3_inst_eff_institutional_effectiveness</table>
+    </sysevent_register>
+</record_update>

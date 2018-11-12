@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="hasLabels=true" audit="true" extends="task" label="Institutional Effectiveness" max_length="40" name="x_unon3_inst_eff_institutional_effectiveness" sizeclass="6" type="collection">
+    <element attributes="hasLabels=true" audit="true" extends="task" label="Institutional Effectiveness" max_length="40" name="x_unon3_inst_eff_institutional_effectiveness" sizeclass="8" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Approval Comments" max_length="40" name="approval_comments" type="journal_input"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assigned" max_length="1024" name="assigned" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">

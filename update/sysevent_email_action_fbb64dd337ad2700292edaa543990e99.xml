@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
-        <action_insert>true</action_insert>
+        <action_insert>false</action_insert>
         <action_update>false</action_update>
         <active>true</active>
         <advanced_condition/>
@@ -10,7 +10,7 @@
         <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
-        <description>Email sent to IE</description>
+        <description>Remind team after 2 days of no assignment</description>
         <digest_from/>
         <digest_html/>
         <digest_reply_to/>
@@ -22,13 +22,13 @@
         <digest_template/>
         <digest_text/>
         <digestable>false</digestable>
-        <event_name/>
+        <event_name>x_unon3_inst_eff.IE.2day.Remind</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
-        <generation_type>engine</generation_type>
+        <generation_type>event</generation_type>
         <importance/>
         <include_attachments>true</include_attachments>
         <item>event.parm1</item>
@@ -36,6 +36,7 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<!-- body -->
+<p>&nbsp;</p>
 <table class="body-wrap" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; width: 100%; margin: 0; padding: 20px;" bgcolor="#3498db">
 <tbody>
 <tr style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
@@ -46,7 +47,7 @@
 <tbody>
 <tr style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
 <td style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
-<p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">${opened_by} has opened a new Request for your team</p>
+<p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">${URI_REF}&nbsp;was opened ${opened_at} and no one from your team has accepted it.&nbsp;</p>
 <h1 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 24px; line-height: 1.0em; color: #111111; font-weight: 200; margin: 40px 0 10px; padding: 0;">${short_description}</h1>
 <hr />
 <p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 5px 0;"><strong>LINK:</strong> ${URI_REF}<strong>&nbsp;</strong></p>
@@ -96,7 +97,7 @@
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>New Request</name>
+        <name>No Assignee</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -107,24 +108,24 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>${number} | ${short_description} | ${opened_by}</subject>
+        <subject>${number} - 48hours with no assignment</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>taalday</sys_created_by>
-        <sys_created_on>2018-10-18 13:29:54</sys_created_on>
+        <sys_created_on>2018-11-08 15:44:18</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>ceafdc680f15a3040764244be1050ea3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>New Request</sys_name>
+        <sys_id>fbb64dd337ad2700292edaa543990e99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>No Assignee</sys_name>
         <sys_overrides/>
         <sys_package display_value="Institutional Effectiveness" source="x_unon3_inst_eff">2e49b0e937f06b00292edaa543990e57</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Institutional Effectiveness">2e49b0e937f06b00292edaa543990e57</sys_scope>
-        <sys_update_name>sysevent_email_action_ceafdc680f15a3040764244be1050ea3</sys_update_name>
+        <sys_update_name>sysevent_email_action_fbb64dd337ad2700292edaa543990e99</sys_update_name>
         <sys_updated_by>taalday</sys_updated_by>
-        <sys_updated_on>2018-11-08 15:50:18</sys_updated_on>
+        <sys_updated_on>2018-11-08 15:44:18</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Inst Effectiveness.Internal">75b83f7b37052304292edaa543990e06</template>
         <type>email</type>
